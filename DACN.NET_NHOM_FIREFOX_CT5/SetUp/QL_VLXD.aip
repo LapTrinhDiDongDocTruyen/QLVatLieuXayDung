@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" CreateVersion="16.5" version="16.5" Modules="professional" RootPath="." Language="en" Id="{1E8832A4-C0A2-4756-AF7F-61C196777B12}">
+  <COMPONENT cid="caphyon.advinst.msicomp.ProjectOptionsComponent">
+    <ROW Name="HiddenItems" Value="AppXProductDetailsComponent;AppXDependenciesComponent;AppXAppDetailsComponent;AppXVisualAssetsComponent;AppXCapabilitiesComponent;AppXAppDeclarationsComponent;AppXUriRulesComponent;MsiJavaComponent;MsiDriverPackagesComponent;UserAccountsComponent;ScheduledTasksComponent;SqlConnectionComponent;AutorunComponent;FirewallExceptionComponent;GameUxComponent;MsiDirectEditorComponent;SharePointSlnComponent;SilverlightSlnComponent;MultipleInstancesComponent;SccmComponent;ActSyncAppComponent;FixupComponent"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="AI_BITMAP_DISPLAY_MODE" Value="0"/>
+    <ROW Property="AI_COLOR_DISABLED_TEXT" Value="3026478" MultiBuildValue="DefaultBuild:15461355" MsiKey="AI_COLOR_DISABLED_TEXT"/>
+    <ROW Property="AI_CONTROL_VISUAL_STYLE" Value="2960685;4276545;6776679;16176031" MultiBuildValue="DefaultBuild:16777215;16312552;10432303;9109504" MsiKey="AI_CONTROL_VISUAL_STYLE"/>
+    <ROW Property="AI_CONTROL_VISUAL_STYLE_EX" Value="1513239;3026478;3026478" MultiBuildValue="DefaultBuild:16514043;15461355;15461355" MsiKey="AI_CONTROL_VISUAL_STYLE_EX"/>
+    <ROW Property="AI_CONTROL_VISUAL_STYLE_FLAT" MultiBuildValue="DefaultBuild:16312552;16312552;10432303;9109504" MsiKey="AI_CONTROL_VISUAL_STYLE_FLAT"/>
+    <ROW Property="AI_EXTERNALUIUNINSTALLERNAME" MultiBuildValue="DefaultBuild:aiui"/>
+    <ROW Property="AI_FINDEXE_TITLE" Value="Select the installation package for [|ProductName]" ValueLocId="AI.Property.FindExeTitle"/>
+    <ROW Property="AI_FrameBtnsColor" Value="metroblack" MultiBuildValue="DefaultBuild:metrodarkblue" MsiKey="AI_FrameBtnsColor"/>
+    <ROW Property="AI_FrameColor" Value="metroblack" MultiBuildValue="DefaultBuild:metrodarkblue" MsiKey="AI_FrameColor"/>
+    <ROW Property="AI_PREDEF_LCONDS_PROPS" Value="AI_DETECTED_DOTNET_VERSION"/>
+    <ROW Property="AI_PRODUCTNAME_ARP" Value="QL_VatLieuXayDung"/>
+    <ROW Property="AI_REQUIRED_DOTNET_DISPLAY" MultiBuildValue="DefaultBuild:4.0" ValueLocId="-"/>
+    <ROW Property="AI_REQUIRED_DOTNET_VERSION" MultiBuildValue="DefaultBuild:4.0.1" ValueLocId="-"/>
+    <ROW Property="AI_ThemeStyle" Value="default" MultiBuildValue="DefaultBuild:metrodarkblue" MsiKey="AI_ThemeStyle"/>
+    <ROW Property="AI_UNINSTALLER" Value="msiexec.exe"/>
+    <ROW Property="ALLUSERS" Value="1"/>
+    <ROW Property="ARPCOMMENTS" Value="This installer database contains the logic and data required to install [|ProductName]." ValueLocId="*"/>
+    <ROW Property="ARPNOREPAIR" Value="1" MultiBuildValue="DefaultBuild:1"/>
+    <ROW Property="ARPPRODUCTICON" Value="icons8_administrative_tools.exe" Type="8"/>
+    <ROW Property="ARPSYSTEMCOMPONENT" Value="1"/>
+    <ROW Property="Manufacturer" Value="FireFox"/>
+    <ROW Property="ProductCode" Value="1033:{A1536EB6-E3A2-42EB-8DDF-AE31C73BEF04} " Type="16"/>
+    <ROW Property="ProductLanguage" Value="1033"/>
+    <ROW Property="ProductName" Value="QL_VatLieuXayDung"/>
+    <ROW Property="ProductVersion" Value="1.0.0" Type="32"/>
+    <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND;AI_SETUPEXEPATH;SETUPEXEDIR"/>
+    <ROW Property="UpgradeCode" Value="{F101AEC9-85E9-4F6A-BC0D-3D4A91B13F10}"/>
+    <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsType9XDisplay" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40Display" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50Display" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5X" MultiBuildValue="DefaultBuild:Windows XP/2003 RTM, Windows XP/2003 SP1, Windows XP SP2 x86" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5XDisplay" MultiBuildValue="DefaultBuild:Windows XP/2003 RTM, Windows XP/2003 SP1, Windows XP SP2 x86" ValueLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1"/>
+    <ROW Directory="DesktopFolder" Directory_Parent="TARGETDIR" DefaultDir="DESKTO~1|DesktopFolder" IsPseudoRoot="1"/>
+    <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="AI_CustomARPName" ComponentId="{7FEB4E88-778D-45C6-A568-3A5F52F870F3}" Directory_="APPDIR" Attributes="4" KeyPath="DisplayName" Options="1"/>
+    <ROW Component="AI_ExePath" ComponentId="{5450FD87-CB0F-4E71-8A04-2EF3421B1423}" Directory_="APPDIR" Attributes="4" KeyPath="AI_ExePath"/>
+    <ROW Component="APPDIR" ComponentId="{A1381C6B-C058-4C7A-896E-68522A5CB71A}" Directory_="APPDIR" Attributes="0"/>
+    <ROW Component="Microsoft.SqlServer.AzureStorageEnum.dll" ComponentId="{9567D0F1-5783-485A-A147-1A97C4F0E1B7}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.SqlServer.AzureStorageEnum.dll"/>
+    <ROW Component="Microsoft.SqlServer.AzureStorageEnum.xml" ComponentId="{4FD38065-98CE-4696-AC66-F40D30262054}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.SqlServer.AzureStorageEnum.xml" Type="0"/>
+    <ROW Component="Microsoft.SqlServer.BatchParserClient.dll" ComponentId="{573B1B64-B51A-4F61-82C3-98555FA6E1AD}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.SqlServer.BatchParserClient.dll"/>
+    <ROW Component="Microsoft.SqlServer.ConnectionInfo.dll" ComponentId="{B9B49815-334D-4D59-9088-DB52EF7A2F96}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.SqlServer.ConnectionInfo.dll"/>
+    <ROW Component="Microsoft.SqlServer.ConnectionInfoExtended.dll" ComponentId="{449CD9F3-7F33-400C-BD9F-BDD0D91C5760}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.SqlServer.ConnectionInfoExtended.dll"/>
+    <ROW Component="Microsoft.SqlServer.Diagnostics.Strace.dll" ComponentId="{831AA6A2-D27B-4981-9B0A-F39B10B7B778}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.SqlServer.Diagnostics.Strace.dll"/>
+    <ROW Component="Microsoft.SqlServer.Dmf.Common.dll" ComponentId="{C27E7F51-6314-4A84-B000-AAE48F9C693A}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.SqlServer.Dmf.Common.dll"/>
+    <ROW Component="Microsoft.SqlServer.Dmf.dll" ComponentId="{E7037B37-56D0-4269-BC34-3B0DADEF53ED}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.SqlServer.Dmf.dll"/>
+    <ROW Component="Microsoft.SqlServer.Management.Collector.dll" ComponentId="{2DBE59D5-1B51-490E-9A33-7B53E6D46948}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.SqlServer.Management.Collector.dll"/>
+    <ROW Component="Microsoft.SqlServer.Management.CollectorEnum.dll" ComponentId="{008EBF9E-A83E-4208-898E-CE4FE3DBFFDA}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.SqlServer.Management.CollectorEnum.dll"/>
+    <ROW Component="Microsoft.SqlServer.Management.Common.dll" ComponentId="{8D8C3B63-D0F2-489E-8789-9DD73DA40D14}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.SqlServer.Management.Common.dll"/>
+    <ROW Component="Microsoft.SqlServer.Management.RegisteredServers.dll" ComponentId="{F0526BE3-E0EF-46FB-8EB1-0E7C0AD06DB6}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.SqlServer.Management.RegisteredServers.dll"/>
+    <ROW Component="Microsoft.SqlServer.Management.Sdk.Sfc.dll" ComponentId="{CC0C8563-5DAB-4DE9-ACE7-6893247A1820}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.SqlServer.Management.Sdk.Sfc.dll"/>
+    <ROW Component="Microsoft.SqlServer.Management.SmoMetadataProvider.dll" ComponentId="{F6B9D8BF-69B3-424F-AFF4-0CBAD8A3D170}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.SqlServer.Management.SmoMetadataProvider.dll"/>
+    <ROW Component="Microsoft.SqlServer.Management.Utility.dll" ComponentId="{2DCB65A4-676B-40F1-8422-9E16D2159D33}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.SqlServer.Management.Utility.dll"/>
+    <ROW Component="Microsoft.SqlServer.Management.UtilityEnum.dll" ComponentId="{616D56A1-55B7-4BCF-B44E-EEEF49BE349D}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.SqlServer.Management.UtilityEnum.dll"/>
+    <ROW Component="Microsoft.SqlServer.Management.XEvent.dll" ComponentId="{C862803F-08A4-4E15-9A4D-7AD77F6753CE}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.SqlServer.Management.XEvent.dll"/>
+    <ROW Component="Microsoft.SqlServer.Management.XEventDbScoped.dll" ComponentId="{95390C76-1698-438E-AC31-E6D88BCC7694}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.SqlServer.Management.XEventDbScoped.dll"/>
+    <ROW Component="Microsoft.SqlServer.Management.XEventDbScopedEnum.dll" ComponentId="{BD6E13A6-B279-4C84-AD24-5E6E4C456DFE}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.SqlServer.Management.XEventDbScopedEnum.dll"/>
+    <ROW Component="Microsoft.SqlServer.Management.XEventEnum.dll" ComponentId="{E8F32E58-79C7-48AA-BA03-5CF6B268C070}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.SqlServer.Management.XEventEnum.dll"/>
+    <ROW Component="Microsoft.SqlServer.PolicyEnum.dll" ComponentId="{627D5D68-D05C-4627-9175-72A9C2C013F2}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.SqlServer.PolicyEnum.dll"/>
+    <ROW Component="Microsoft.SqlServer.RegSvrEnum.dll" ComponentId="{FAE6D163-5AFE-4C84-B78F-BA9BD3AC6D5B}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.SqlServer.RegSvrEnum.dll"/>
+    <ROW Component="Microsoft.SqlServer.SString.dll" ComponentId="{70FC294C-6362-4514-8720-972AF74EE924}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.SqlServer.SString.dll"/>
+    <ROW Component="Microsoft.SqlServer.ServiceBrokerEnum.dll" ComponentId="{151AD5EA-16D5-4CBC-B135-25C3D10FEBDD}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.SqlServer.ServiceBrokerEnum.dll"/>
+    <ROW Component="Microsoft.SqlServer.Smo.dll" ComponentId="{1F264A9E-DB25-4FE8-83B0-036B5C361882}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.SqlServer.Smo.dll"/>
+    <ROW Component="Microsoft.SqlServer.SmoExtended.dll" ComponentId="{DAA51F05-7A74-49CF-A089-652FDBE30362}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.SqlServer.SmoExtended.dll"/>
+    <ROW Component="Microsoft.SqlServer.SqlClrProvider.dll" ComponentId="{0CA6BD62-3D18-4D4D-9C07-BB37F417E9D3}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.SqlServer.SqlClrProvider.dll"/>
+    <ROW Component="Microsoft.SqlServer.SqlEnum.dll" ComponentId="{58B89957-B518-474F-87EA-5B70BCF64055}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.SqlServer.SqlEnum.dll"/>
+    <ROW Component="Microsoft.SqlServer.SqlTDiagm.dll" ComponentId="{7D842DDC-B5B7-46E0-B1F3-C42B14F9F181}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.SqlServer.SqlTDiagm.dll"/>
+    <ROW Component="Microsoft.SqlServer.SqlWmiManagement.dll" ComponentId="{52E45C20-8D46-4AF2-8A69-9736EE602D11}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.SqlServer.SqlWmiManagement.dll"/>
+    <ROW Component="Microsoft.SqlServer.Types.dll" ComponentId="{FA665921-CBA5-4FA8-9BE7-1CE5321870EC}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.SqlServer.Types.dll"/>
+    <ROW Component="Microsoft.SqlServer.WmiEnum.dll" ComponentId="{05874676-F37E-45D1-B889-DCB703FE7266}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.SqlServer.WmiEnum.dll"/>
+    <ROW Component="ProductInformation" ComponentId="{649B7CD6-2276-4C69-94C4-F207F936D8E1}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
+    <ROW Component="QL_VatLieuXayDung.exe" ComponentId="{E1B7FC6B-CC32-4471-820B-3F4A9BD38F1C}" Directory_="APPDIR" Attributes="0" KeyPath="QL_VatLieuXayDung.exe"/>
+    <ROW Component="QL_VatLieuXayDung.vshost.exe" ComponentId="{0829A5B6-27C8-4800-95BD-CADD6778BB5D}" Directory_="APPDIR" Attributes="0" KeyPath="QL_VatLieuXayDung.vshost.exe"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0"/>
+    <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="Microsoft.SqlServer.AzureStorageEnum.dll" Component_="Microsoft.SqlServer.AzureStorageEnum.dll" FileName="MICROS~1.DLL|Microsoft.SqlServer.AzureStorageEnum.dll" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.AzureStorageEnum.dll" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.AzureStorageEnum.xml" Component_="Microsoft.SqlServer.AzureStorageEnum.xml" FileName="MICROS~1.XML|Microsoft.SqlServer.AzureStorageEnum.xml" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.AzureStorageEnum.xml" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.BatchParserClient.dll" Component_="Microsoft.SqlServer.BatchParserClient.dll" FileName="MICROS~2.DLL|Microsoft.SqlServer.BatchParserClient.dll" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.BatchParserClient.dll" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.ConnectionInfo.dll" Component_="Microsoft.SqlServer.ConnectionInfo.dll" FileName="MICROS~3.DLL|Microsoft.SqlServer.ConnectionInfo.dll" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.ConnectionInfo.xml" Component_="Microsoft.SqlServer.AzureStorageEnum.xml" FileName="MICROS~2.XML|Microsoft.SqlServer.ConnectionInfo.xml" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.ConnectionInfo.xml" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.ConnectionInfoExtended.dll" Component_="Microsoft.SqlServer.ConnectionInfoExtended.dll" FileName="MICROS~4.DLL|Microsoft.SqlServer.ConnectionInfoExtended.dll" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.ConnectionInfoExtended.dll" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.ConnectionInfoExtended.xml" Component_="Microsoft.SqlServer.AzureStorageEnum.xml" FileName="MICROS~3.XML|Microsoft.SqlServer.ConnectionInfoExtended.xml" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.ConnectionInfoExtended.xml" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Diagnostics.Strace.dll" Component_="Microsoft.SqlServer.Diagnostics.Strace.dll" FileName="MICROS~5.DLL|Microsoft.SqlServer.Diagnostics.Strace.dll" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.Diagnostics.Strace.dll" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Dmf.Common.dll" Component_="Microsoft.SqlServer.Dmf.Common.dll" FileName="MICROS~6.DLL|Microsoft.SqlServer.Dmf.Common.dll" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.Dmf.Common.dll" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Dmf.Common.xml" Component_="Microsoft.SqlServer.AzureStorageEnum.xml" FileName="MICROS~4.XML|Microsoft.SqlServer.Dmf.Common.xml" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.Dmf.Common.xml" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Dmf.dll" Component_="Microsoft.SqlServer.Dmf.dll" FileName="MICROS~7.DLL|Microsoft.SqlServer.Dmf.dll" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.Dmf.dll" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Dmf.xml" Component_="Microsoft.SqlServer.AzureStorageEnum.xml" FileName="MICROS~5.XML|Microsoft.SqlServer.Dmf.xml" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.Dmf.xml" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Management.Collector.dll" Component_="Microsoft.SqlServer.Management.Collector.dll" FileName="MICROS~8.DLL|Microsoft.SqlServer.Management.Collector.dll" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.Management.Collector.dll" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Management.Collector.xml" Component_="Microsoft.SqlServer.AzureStorageEnum.xml" FileName="MICROS~6.XML|Microsoft.SqlServer.Management.Collector.xml" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.Management.Collector.xml" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Management.CollectorEnum.dll" Component_="Microsoft.SqlServer.Management.CollectorEnum.dll" FileName="MICROS~9.DLL|Microsoft.SqlServer.Management.CollectorEnum.dll" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.Management.CollectorEnum.dll" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Management.CollectorEnum.xml" Component_="Microsoft.SqlServer.AzureStorageEnum.xml" FileName="MICROS~7.XML|Microsoft.SqlServer.Management.CollectorEnum.xml" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.Management.CollectorEnum.xml" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Management.Common.dll" Component_="Microsoft.SqlServer.Management.Common.dll" FileName="MICRO~10.DLL|Microsoft.SqlServer.Management.Common.dll" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.Management.Common.dll" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Management.Common.xml" Component_="Microsoft.SqlServer.AzureStorageEnum.xml" FileName="MICROS~8.XML|Microsoft.SqlServer.Management.Common.xml" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.Management.Common.xml" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Management.RegisteredServers.dll" Component_="Microsoft.SqlServer.Management.RegisteredServers.dll" FileName="MICRO~11.DLL|Microsoft.SqlServer.Management.RegisteredServers.dll" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.Management.RegisteredServers.dll" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Management.RegisteredServers.xml" Component_="Microsoft.SqlServer.AzureStorageEnum.xml" FileName="MICROS~9.XML|Microsoft.SqlServer.Management.RegisteredServers.xml" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.Management.RegisteredServers.xml" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Management.Sdk.Sfc.dll" Component_="Microsoft.SqlServer.Management.Sdk.Sfc.dll" FileName="MICRO~12.DLL|Microsoft.SqlServer.Management.Sdk.Sfc.dll" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Management.Sdk.Sfc.xml" Component_="Microsoft.SqlServer.AzureStorageEnum.xml" FileName="MICRO~10.XML|Microsoft.SqlServer.Management.Sdk.Sfc.xml" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.xml" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Management.SmoMetadataProvider.dll" Component_="Microsoft.SqlServer.Management.SmoMetadataProvider.dll" FileName="MICRO~13.DLL|Microsoft.SqlServer.Management.SmoMetadataProvider.dll" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.Management.SmoMetadataProvider.dll" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Management.SmoMetadataProvider.xml" Component_="Microsoft.SqlServer.AzureStorageEnum.xml" FileName="MICRO~11.XML|Microsoft.SqlServer.Management.SmoMetadataProvider.xml" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.Management.SmoMetadataProvider.xml" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Management.Utility.dll" Component_="Microsoft.SqlServer.Management.Utility.dll" FileName="MICRO~14.DLL|Microsoft.SqlServer.Management.Utility.dll" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.Management.Utility.dll" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Management.Utility.xml" Component_="Microsoft.SqlServer.AzureStorageEnum.xml" FileName="MICRO~12.XML|Microsoft.SqlServer.Management.Utility.xml" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.Management.Utility.xml" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Management.UtilityEnum.dll" Component_="Microsoft.SqlServer.Management.UtilityEnum.dll" FileName="MICRO~15.DLL|Microsoft.SqlServer.Management.UtilityEnum.dll" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.Management.UtilityEnum.dll" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Management.UtilityEnum.xml" Component_="Microsoft.SqlServer.AzureStorageEnum.xml" FileName="MICRO~13.XML|Microsoft.SqlServer.Management.UtilityEnum.xml" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.Management.UtilityEnum.xml" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Management.XEvent.dll" Component_="Microsoft.SqlServer.Management.XEvent.dll" FileName="MICRO~16.DLL|Microsoft.SqlServer.Management.XEvent.dll" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.Management.XEvent.dll" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Management.XEvent.xml" Component_="Microsoft.SqlServer.AzureStorageEnum.xml" FileName="MICRO~14.XML|Microsoft.SqlServer.Management.XEvent.xml" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.Management.XEvent.xml" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Management.XEventDbScoped.dll" Component_="Microsoft.SqlServer.Management.XEventDbScoped.dll" FileName="MICRO~17.DLL|Microsoft.SqlServer.Management.XEventDbScoped.dll" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.Management.XEventDbScoped.dll" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Management.XEventDbScoped.xml" Component_="Microsoft.SqlServer.AzureStorageEnum.xml" FileName="MICRO~15.XML|Microsoft.SqlServer.Management.XEventDbScoped.xml" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.Management.XEventDbScoped.xml" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Management.XEventDbScopedEnum.dll" Component_="Microsoft.SqlServer.Management.XEventDbScopedEnum.dll" FileName="MICRO~18.DLL|Microsoft.SqlServer.Management.XEventDbScopedEnum.dll" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.Management.XEventDbScopedEnum.dll" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Management.XEventDbScopedEnum.xml" Component_="Microsoft.SqlServer.AzureStorageEnum.xml" FileName="MICRO~16.XML|Microsoft.SqlServer.Management.XEventDbScopedEnum.xml" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.Management.XEventDbScopedEnum.xml" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Management.XEventEnum.dll" Component_="Microsoft.SqlServer.Management.XEventEnum.dll" FileName="MICRO~19.DLL|Microsoft.SqlServer.Management.XEventEnum.dll" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.Management.XEventEnum.dll" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Management.XEventEnum.xml" Component_="Microsoft.SqlServer.AzureStorageEnum.xml" FileName="MICRO~17.XML|Microsoft.SqlServer.Management.XEventEnum.xml" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.Management.XEventEnum.xml" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.PolicyEnum.dll" Component_="Microsoft.SqlServer.PolicyEnum.dll" FileName="MICRO~20.DLL|Microsoft.SqlServer.PolicyEnum.dll" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.PolicyEnum.dll" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.PolicyEnum.xml" Component_="Microsoft.SqlServer.AzureStorageEnum.xml" FileName="MICRO~18.XML|Microsoft.SqlServer.PolicyEnum.xml" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.PolicyEnum.xml" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.RegSvrEnum.dll" Component_="Microsoft.SqlServer.RegSvrEnum.dll" FileName="MICRO~21.DLL|Microsoft.SqlServer.RegSvrEnum.dll" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.RegSvrEnum.dll" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.RegSvrEnum.xml" Component_="Microsoft.SqlServer.AzureStorageEnum.xml" FileName="MICRO~19.XML|Microsoft.SqlServer.RegSvrEnum.xml" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.RegSvrEnum.xml" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.ServiceBrokerEnum.dll" Component_="Microsoft.SqlServer.ServiceBrokerEnum.dll" FileName="MICRO~22.DLL|Microsoft.SqlServer.ServiceBrokerEnum.dll" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.ServiceBrokerEnum.xml" Component_="Microsoft.SqlServer.AzureStorageEnum.xml" FileName="MICRO~20.XML|Microsoft.SqlServer.ServiceBrokerEnum.xml" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.xml" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Smo.dll" Component_="Microsoft.SqlServer.Smo.dll" FileName="MICRO~23.DLL|Microsoft.SqlServer.Smo.dll" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.Smo.dll" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Smo.xml" Component_="Microsoft.SqlServer.AzureStorageEnum.xml" FileName="MICRO~21.XML|Microsoft.SqlServer.Smo.xml" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.Smo.xml" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.SmoExtended.dll" Component_="Microsoft.SqlServer.SmoExtended.dll" FileName="MICRO~24.DLL|Microsoft.SqlServer.SmoExtended.dll" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.SmoExtended.dll" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.SmoExtended.xml" Component_="Microsoft.SqlServer.AzureStorageEnum.xml" FileName="MICRO~22.XML|Microsoft.SqlServer.SmoExtended.xml" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.SmoExtended.xml" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.SqlClrProvider.dll" Component_="Microsoft.SqlServer.SqlClrProvider.dll" FileName="MICRO~25.DLL|Microsoft.SqlServer.SqlClrProvider.dll" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.SqlClrProvider.dll" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.SqlEnum.dll" Component_="Microsoft.SqlServer.SqlEnum.dll" FileName="MICRO~26.DLL|Microsoft.SqlServer.SqlEnum.dll" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.SqlEnum.dll" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.SqlEnum.xml" Component_="Microsoft.SqlServer.AzureStorageEnum.xml" FileName="MICRO~23.XML|Microsoft.SqlServer.SqlEnum.xml" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.SqlEnum.xml" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.SqlTDiagm.dll" Component_="Microsoft.SqlServer.SqlTDiagm.dll" FileName="MICRO~27.DLL|Microsoft.SqlServer.SqlTDiagm.dll" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.SqlTDiagm.dll" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.SqlWmiManagement.dll" Component_="Microsoft.SqlServer.SqlWmiManagement.dll" FileName="MICRO~28.DLL|Microsoft.SqlServer.SqlWmiManagement.dll" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.SqlWmiManagement.dll" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.SqlWmiManagement.xml" Component_="Microsoft.SqlServer.AzureStorageEnum.xml" FileName="MICRO~24.XML|Microsoft.SqlServer.SqlWmiManagement.xml" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.SqlWmiManagement.xml" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.SString.dll" Component_="Microsoft.SqlServer.SString.dll" FileName="MICRO~29.DLL|Microsoft.SqlServer.SString.dll" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.SString.dll" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Types.dll" Component_="Microsoft.SqlServer.Types.dll" FileName="MICRO~30.DLL|Microsoft.SqlServer.Types.dll" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.Types.dll" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Types.xml" Component_="Microsoft.SqlServer.AzureStorageEnum.xml" FileName="MICRO~25.XML|Microsoft.SqlServer.Types.xml" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.Types.xml" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.WmiEnum.dll" Component_="Microsoft.SqlServer.WmiEnum.dll" FileName="MICRO~31.DLL|Microsoft.SqlServer.WmiEnum.dll" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.WmiEnum.dll" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.WmiEnum.xml" Component_="Microsoft.SqlServer.AzureStorageEnum.xml" FileName="MICRO~26.XML|Microsoft.SqlServer.WmiEnum.xml" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\Microsoft.SqlServer.WmiEnum.xml" SelfReg="false"/>
+    <ROW File="QL_VatLieuXayDung.exe" Component_="QL_VatLieuXayDung.exe" FileName="QL_VAT~1.EXE|QL_VatLieuXayDung.exe" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\QL_VatLieuXayDung.exe" SelfReg="false" DigSign="true"/>
+    <ROW File="QL_VatLieuXayDung.exe.config" Component_="Microsoft.SqlServer.AzureStorageEnum.xml" FileName="QL_VAT~1.CON|QL_VatLieuXayDung.exe.config" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\QL_VatLieuXayDung.exe.config" SelfReg="false"/>
+    <ROW File="QL_VatLieuXayDung.pdb" Component_="QL_VatLieuXayDung.exe" FileName="QL_VAT~1.PDB|QL_VatLieuXayDung.pdb" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\QL_VatLieuXayDung.pdb" SelfReg="false"/>
+    <ROW File="QL_VatLieuXayDung.vshost.exe" Component_="QL_VatLieuXayDung.vshost.exe" FileName="QL_VAT~2.EXE|QL_VatLieuXayDung.vshost.exe" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\QL_VatLieuXayDung.vshost.exe" SelfReg="false" DigSign="true"/>
+    <ROW File="QL_VatLieuXayDung.vshost.exe.config" Component_="Microsoft.SqlServer.AzureStorageEnum.xml" FileName="QL_VAT~2.CON|QL_VatLieuXayDung.vshost.exe.config" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\QL_VatLieuXayDung.vshost.exe.config" SelfReg="false"/>
+    <ROW File="QL_VatLieuXayDung.vshost.exe.manifest" Component_="Microsoft.SqlServer.AzureStorageEnum.xml" FileName="QL_VAT~1.MAN|QL_VatLieuXayDung.vshost.exe.manifest" Attributes="0" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug\QL_VatLieuXayDung.vshost.exe.manifest" SelfReg="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BootstrOptComponent">
+    <ROW BootstrOptKey="GlobalOptions" DownloadFolder="[AppDataFolder][|Manufacturer]\[|ProductName]\prerequisites" Options="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BootstrapperUISequenceComponent">
+    <ROW Action="AI_DetectSoftware" Sequence="101"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
+    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="0" PackageFolder="Setup Files" Languages="en" InstallationType="4" CabsLocation="1" PackageType="1" FilesInsideExe="true" ExeIconPath="..\..\..\Pictures\icon\icons8_administrative_tools.ico" ExtractionFolder="[AppDataFolder][|Manufacturer]\[|ProductName] [|ProductVersion]\install" ExtUI="true" UseLargeSchema="true" ExeName="QL_VatLieuXayDung"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_en.ail"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
+    <ROW Fragment="CommonUI.aip" Path="&lt;AI_FRAGS&gt;CommonUI.aip"/>
+    <ROW Fragment="InstallDlg.aip" Path="&lt;AI_THEMES&gt;surface\fragments\InstallDlg.aip"/>
+    <ROW Fragment="LicenseAgreementDlg.aip" Path="&lt;AI_THEMES&gt;surface\fragments\LicenseAgreementDlg.aip"/>
+    <ROW Fragment="MaintenanceTypeDlg.aip" Path="&lt;AI_THEMES&gt;surface\fragments\MaintenanceTypeDlg.aip"/>
+    <ROW Fragment="PreparePrereqDlg.aip" Path="&lt;AI_THEMES&gt;surface\fragments\PreparePrereqDlg.aip"/>
+    <ROW Fragment="PrerequisitesDlg.aip" Path="&lt;AI_THEMES&gt;surface\fragments\PrerequisitesDlg.aip"/>
+    <ROW Fragment="ProgressPrereqDlg.aip" Path="&lt;AI_THEMES&gt;surface\fragments\ProgressPrereqDlg.aip"/>
+    <ROW Fragment="SequenceDialogs.aip" Path="&lt;AI_THEMES&gt;surface\fragments\SequenceDialogs.aip"/>
+    <ROW Fragment="Sequences.aip" Path="&lt;AI_FRAGS&gt;Sequences.aip"/>
+    <ROW Fragment="StaticUIStrings.aip" Path="&lt;AI_FRAGS&gt;StaticUIStrings.aip"/>
+    <ROW Fragment="UI.aip" Path="&lt;AI_THEMES&gt;surface\fragments\UI.aip"/>
+    <ROW Fragment="Validation.aip" Path="&lt;AI_FRAGS&gt;Validation.aip"/>
+    <ROW Fragment="VerifyRemoveDlg.aip" Path="&lt;AI_THEMES&gt;surface\fragments\VerifyRemoveDlg.aip"/>
+    <ROW Fragment="VerifyRepairDlg.aip" Path="&lt;AI_THEMES&gt;surface\fragments\VerifyRepairDlg.aip"/>
+    <ROW Fragment="WelcomePrereqDlg.aip" Path="&lt;AI_THEMES&gt;surface\fragments\WelcomePrereqDlg.aip"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiActionTextComponent">
+    <ROW Action="AI_DeleteLzma" Description="Deleting files extracted from archive" DescriptionLocId="ActionText.Description.AI_DeleteLzma" TemplateLocId="-"/>
+    <ROW Action="AI_DeleteRLzma" Description="Deleting files extracted from archive" DescriptionLocId="ActionText.Description.AI_DeleteLzma" TemplateLocId="-"/>
+    <ROW Action="AI_ExtractFiles" Description="Extracting files from archive" DescriptionLocId="ActionText.Description.AI_ExtractLzma" TemplateLocId="-"/>
+    <ROW Action="AI_ExtractLzma" Description="Extracting files from archive" DescriptionLocId="ActionText.Description.AI_ExtractLzma" TemplateLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiAppSearchComponent">
+    <ROW Property="AI_SETUPEXEPATH" Signature_="AI_EXE_PATH_LM" Builds="DefaultBuild"/>
+    <ROW Property="AI_SETUPEXEPATH" Signature_="AI_EXE_PATH_CU" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="ExternalUICleaner.dll" SourcePath="&lt;AI_CUSTACTS&gt;ExternalUICleaner.dll"/>
+    <ROW Name="Prereq.dll" SourcePath="&lt;AI_CUSTACTS&gt;Prereq.dll"/>
+    <ROW Name="SoftwareDetector.dll" SourcePath="&lt;AI_CUSTACTS&gt;SoftwareDetector.dll"/>
+    <ROW Name="aicustact.dll" SourcePath="&lt;AI_CUSTACTS&gt;aicustact.dll"/>
+    <ROW Name="lzmaextractor.dll" SourcePath="&lt;AI_CUSTACTS&gt;lzmaextractor.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="CustomizeDlg" Control="CustomizeDlgDialogInitializer" Type="DialogInitializer" X="0" Y="0" Width="0" Height="0" Attributes="0" Order="-1" TextLocId="-" HelpLocId="-" ExtDataLocId="-"/>
+    <ROW Dialog_="MsiRMFilesInUse" Control="Cancel" Type="ImageButton" X="163" Y="359" Width="78" Height="28" Attributes="2" Text="[NextCancelButtons]" TextStyle="[MetroButtonText]" Order="100" MsiKey="MsiRMFilesInUse#Cancel" Options="1" ExtType="ImageButton" ExtData="[ButtonText_Cancel]" ExtDataLocId="-"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control="PatchWelcomeDlgDialogInitializer" Type="DialogInitializer" X="0" Y="0" Width="0" Height="0" Attributes="0" Order="-1" TextLocId="-" HelpLocId="-" ExtDataLocId="-"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control="ProductNameTitle" Type="Text" X="83" Y="21" Width="245" Height="50" Attributes="196611" Text="[ProductName]" TextStyle="[ProductNameForSplash]" Order="600" TextLocId="Metro.Control.Text.ProductName" MsiKey="PatchWelcomeDlg#ProductNameTitle"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control="CompanyText" Type="Text" X="83" Y="16" Width="191" Height="12" Attributes="196611" Text="[Manufacturer]" TextStyle="[ManufacturerFont]" Order="700" TextLocId="Metro.Control.Text.Manufacturer" MsiKey="PatchWelcomeDlg#CompanyText"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control="ProductLogo" Type="Bitmap" X="17" Y="5" Width="59" Height="63" Attributes="1" Text="[AppLogoIcon]" Order="800" MsiKey="PatchWelcomeDlg#ProductLogo"/>
+    <ROW Dialog_="PreparePrereqDlg" Control="ProgressAnimation" Type="Bitmap" X="123" Y="83" Width="113" Height="30" Attributes="1048577" Text="PreparePrereqDlgProgress.gif" Order="800" MsiKey="PreparePrereqDlg#ProgressAnimation"/>
+    <ROW Dialog_="PrerequisitesDlg" Control="Cancel" Type="ImageButton" X="163" Y="359" Width="78" Height="28" Attributes="2" Text="[NextCancelButtons]" TextStyle="[MetroButtonText]" Order="100" MsiKey="PrerequisitesDlg#Cancel" Options="1" ExtType="ImageButton" ExtData="[ButtonText_Cancel]" ExtDataLocId="-"/>
+    <ROW Dialog_="ProgressPrereqDlg" Control="ActionText" Type="Text" X="17" Y="191" Width="309" Height="11" Attributes="196611" TextStyle="SubnoteFont" Order="800" MsiKey="ProgressPrereqDlg#ActionText"/>
+    <ROW Dialog_="ProgressPrereqDlg" Control="ProgressBar" Type="StyledProgressBar" X="17" Y="185" Width="312" Height="5" Attributes="65537" Text="PrereqProgressImage.png" Order="900" MsiKey="ProgressPrereqDlg#ProgressBar" ExtType="StyledProgressBar"/>
+    <ROW Dialog_="ProgressPrereqDlg" Control="StatusLabel" Type="Text" X="17" Y="171" Width="45" Height="13" Attributes="196611" Text="Status:" TextStyle="SubnoteFont" Order="1000" TextLocId="Control.Text.ProgressDlg#StatusLabel" MsiKey="ProgressPrereqDlg#StatusLabel"/>
+    <ROW Dialog_="ProgressPrereqDlg" Control="Text" Type="Text" X="17" Y="105" Width="300" Height="30" Attributes="196611" Text="Please wait while the [Wizard] [Progress2] prerequisites for [ProductName].  This may take several minutes." Order="1100" TextLocId="Control.Text.ProgressPrereqDlg#Text" MsiKey="ProgressPrereqDlg#Text"/>
+    <ROW Dialog_="VerifyReadyDlg" Control="Cancel" Type="ImageButton" X="163" Y="359" Width="78" Height="28" Attributes="2" Text="[NextCancelButtons]" TextStyle="[MetroButtonText]" Order="100" MsiKey="VerifyReadyDlg#Cancel" Options="1" ExtType="ImageButton" ExtData="[ButtonText_Cancel]" ExtDataLocId="-"/>
+    <ROW Dialog_="VerifyReadyDlg" Control="Back" Type="PushButton" X="5" Y="381" Width="11" Height="11" Attributes="2" Text="Control.Text.VerifyReadyDlg#Back" Help="Back|" Order="200" TextLocId="Control.Text.VerifyReadyDlg#Back" HelpLocId="Air.Control.Help#Back" MsiKey="VerifyReadyDlg#Back" Options="1" ExtType="PushButton" ExtData="[ButtonText_Back]" ExtDataLocId="-"/>
+    <ROW Dialog_="VerifyReadyDlg" Control="ReadyToInstall" Type="Text" X="17" Y="105" Width="312" Height="19" Attributes="196611" Text="Ready to Install" TextStyle="[SubTitleStyle]" Order="400" TextLocId="Control.Text.VerifyReadyDlg#Title" MsiKey="VerifyReadyDlg#ReadyToInstall"/>
+    <ROW Dialog_="VerifyReadyDlg" Control="Text_2" Type="Text" X="17" Y="139" Width="312" Height="100" Attributes="65539" Text="The [Wizard] is ready to begin the [ProductName] installation" Order="500" TextLocId="Control.Text.VerifyReadyDlg#Description" MsiKey="VerifyReadyDlg#Text_2"/>
+    <ROW Dialog_="VerifyReadyDlg" Control="InstallButton" Type="ImageButton" X="251" Y="359" Width="78" Height="28" Attributes="3" Text="[metrobuttonimage]" TextStyle="[MetroButtonText]" Order="600" MsiKey="VerifyReadyDlg#InstallButton" ExtType="ImageButton" ExtData="INSTALL" ExtDataLocId="Metro.Control.ExtData.VerifyReadyDlg#InstallButton"/>
+    <ROW Dialog_="VerifyReadyDlg" Control="ProductNameTitle" Type="Text" X="83" Y="21" Width="245" Height="50" Attributes="196611" Text="[ProductName]" TextStyle="[ProductNameForSplash]" Order="700" TextLocId="Metro.Control.Text.ProductName" MsiKey="VerifyReadyDlg#ProductNameTitle"/>
+    <ROW Dialog_="VerifyReadyDlg" Control="CompanyText" Type="Text" X="83" Y="16" Width="191" Height="12" Attributes="196611" Text="[Manufacturer]" TextStyle="[ManufacturerFont]" Order="800" TextLocId="Metro.Control.Text.Manufacturer" MsiKey="VerifyReadyDlg#CompanyText"/>
+    <ROW Dialog_="VerifyReadyDlg" Control="ProductLogo" Type="Bitmap" X="17" Y="5" Width="59" Height="63" Attributes="1" Text="[AppLogoIcon]" Order="900" MsiKey="VerifyReadyDlg#ProductLogo"/>
+    <ROW Dialog_="VerifyReadyDlg" Control="AdvInst" Type="Text" X="5" Y="388" Width="74" Height="11" Attributes="196611" Text="Advanced Installer" TextStyle="[BrandingStyle]" Order="1000" MsiKey="VerifyReadyDlg#AdvInst"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control="Cancel" Type="ImageButton" X="163" Y="359" Width="78" Height="28" Attributes="2" Text="[NextCancelButtons]" TextStyle="[MetroButtonText]" Order="100" MsiKey="VerifyRemoveDlg#Cancel" Options="1" ExtType="ImageButton" ExtData="[ButtonText_Cancel]" ExtDataLocId="-"/>
+    <ROW Dialog_="VerifyRepairDlg" Control="Bitmap" Type="Bitmap" X="0" Y="0" Width="345" Height="400" Attributes="1" Text="[Background]" Order="100" MsiKey="VerifyRepairDlg#Bitmap"/>
+    <ROW Dialog_="VerifyRepairDlg" Control="Cancel" Type="ImageButton" X="163" Y="359" Width="78" Height="28" Attributes="2" Text="[NextCancelButtons]" TextStyle="[MetroButtonText]" Order="200" MsiKey="VerifyRepairDlg#Cancel" Options="1" ExtType="ImageButton" ExtData="[ButtonText_Cancel]" ExtDataLocId="-"/>
+    <ROW Dialog_="WelcomePrereqDlg" Control="Description" Type="Text" X="17" Y="139" Width="312" Height="211" Attributes="196611" Text="The setup has determined that some of the prerequisites needed to run [ProductName] are missing. This wizard will assist you in getting and installing those prerequisites. Click &quot;[Text_Next]&quot; to continue or &quot;[ButtonText_Cancel]&quot; to exit the [Wizard]." Order="800" TextLocId="Control.Text.WelcomePrereqDlg#Description" MsiKey="WelcomePrereqDlg#Description"/>
+    <ROW Dialog_="WelcomePrereqDlg" Control="SubTitle" Type="Text" X="17" Y="105" Width="312" Height="34" Attributes="196611" Text="Welcome to the Prerequisites [Wizard]" TextStyle="[SubTitleStyle]" Order="900" TextLocId="Control.Text.WelcomePrereqDlg#SubTitle" MsiKey="WelcomePrereqDlg#SubTitle"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="WelcomePrereqDlg" Control_="Next" Event="NewDialog" Argument="PrerequisitesDlg" Condition="AI_BOOTSTRAPPER" Ordering="1"/>
+    <ROW Dialog_="PrerequisitesDlg" Control_="Next" Event="EndDialog" Argument="Return" Condition="AI_BOOTSTRAPPER" Ordering="1"/>
+    <ROW Dialog_="PrerequisitesDlg" Control_="Back" Event="NewDialog" Argument="WelcomePrereqDlg" Condition="AI_BOOTSTRAPPER" Ordering="1"/>
+    <ROW Dialog_="InstallDlg" Control_="Next" Event="EndDialog" Argument="Return" Condition="AI_INSTALL" Ordering="301"/>
+    <ROW Dialog_="InstallDlg" Control_="YouMustAgreeCtrl" Event="NewDialog" Argument="LicenseAgreementDlg" Condition="AI_INSTALL AND AiLicenseAgreement" Ordering="301"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="Back" Event="NewDialog" Argument="InstallDlg" Condition="AI_INSTALL AND AiLicenseAgreement" Ordering="1"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="Next" Event="EndDialog" Argument="Return" Condition="AI_INSTALL AND AiLicenseAgreement" Ordering="101"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="ChangeButton" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="501"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RemoveButton" Event="NewDialog" Argument="VerifyRemoveDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="699"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="1"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Remove" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="199" Options="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RepairButton" Event="NewDialog" Argument="VerifyRepairDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="699"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="1"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Repair" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="299" Options="1"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Modify" Event="EndDialog" Argument="Return" Condition="AI_MAINT" Ordering="101"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="EndDialog" Argument="Return" Condition="AI_PATCH" Ordering="201"/>
+    <ROW Dialog_="ResumeDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_RESUME" Ordering="99"/>
+    <ROW Dialog_="InstallDlg" Control_="Next" Event="SpawnDialog" Argument="OutOfRbDiskDlg" Condition="AI_INSTALL AND OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND (PROMPTROLLBACKCOST=&quot;P&quot; OR NOT PROMPTROLLBACKCOST)" Ordering="302" Options="2"/>
+    <ROW Dialog_="InstallDlg" Control_="Next" Event="EnableRollback" Argument="False" Condition="AI_INSTALL AND OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND PROMPTROLLBACKCOST=&quot;D&quot;" Ordering="303" Options="2"/>
+    <ROW Dialog_="InstallDlg" Control_="Next" Event="SpawnDialog" Argument="OutOfDiskDlg" Condition="AI_INSTALL AND ( (OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 1) OR (OutOfDiskSpace = 1 AND PROMPTROLLBACKCOST=&quot;F&quot;) )" Ordering="304" Options="2"/>
+    <ROW Dialog_="InstallDlg" Control_="InstallDlgDialogInitializer" Event="[AI_ButtonText_Next_Orig]" Argument="[ButtonText_Next]" Condition="AI_INSTALL" Ordering="101" Options="2"/>
+    <ROW Dialog_="InstallDlg" Control_="InstallDlgDialogInitializer" Event="[ButtonText_Next]" Argument="[[AI_CommitButton]]" Condition="AI_INSTALL" Ordering="102" Options="2"/>
+    <ROW Dialog_="InstallDlg" Control_="InstallDlgDialogInitializer" Event="[AI_Text_Next_Orig]" Argument="[Text_Next]" Condition="AI_INSTALL" Ordering="103" Options="2"/>
+    <ROW Dialog_="InstallDlg" Control_="InstallDlgDialogInitializer" Event="[Text_Next]" Argument="[Text_Install]" Condition="AI_INSTALL" Ordering="104" Options="2"/>
+    <ROW Dialog_="InstallDlg" Control_="YouMustAgreeCtrl" Event="[ButtonText_Next]" Argument="[AI_ButtonText_Next_Orig]" Condition="AI_INSTALL" Ordering="302" Options="2"/>
+    <ROW Dialog_="InstallDlg" Control_="YouMustAgreeCtrl" Event="[Text_Next]" Argument="[AI_Text_Next_Orig]" Condition="AI_INSTALL" Ordering="303" Options="2"/>
+    <ROW Dialog_="InstallDlg" Control_="Back" Event="[ButtonText_Next]" Argument="[AI_ButtonText_Next_Orig]" Condition="AI_INSTALL" Ordering="0" Options="2"/>
+    <ROW Dialog_="InstallDlg" Control_="Back" Event="[Text_Next]" Argument="[AI_Text_Next_Orig]" Condition="AI_INSTALL" Ordering="1" Options="2"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="Next" Event="SpawnDialog" Argument="OutOfRbDiskDlg" Condition="AI_INSTALL AND AiLicenseAgreement AND OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND (PROMPTROLLBACKCOST=&quot;P&quot; OR NOT PROMPTROLLBACKCOST)" Ordering="102" Options="2"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="Next" Event="EnableRollback" Argument="False" Condition="AI_INSTALL AND AiLicenseAgreement AND OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND PROMPTROLLBACKCOST=&quot;D&quot;" Ordering="103" Options="2"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="Next" Event="SpawnDialog" Argument="OutOfDiskDlg" Condition="AI_INSTALL AND AiLicenseAgreement AND ( (OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 1) OR (OutOfDiskSpace = 1 AND PROMPTROLLBACKCOST=&quot;F&quot;) )" Ordering="104" Options="2"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="LicenseAgreementDlgDialogInitializer" Event="[AI_ButtonText_Next_Orig]" Argument="[ButtonText_Next]" Condition="AI_INSTALL AND AiLicenseAgreement" Ordering="101" Options="2"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="LicenseAgreementDlgDialogInitializer" Event="[ButtonText_Next]" Argument="[[AI_CommitButton]]" Condition="AI_INSTALL AND AiLicenseAgreement" Ordering="102" Options="2"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="LicenseAgreementDlgDialogInitializer" Event="[AI_Text_Next_Orig]" Argument="[Text_Next]" Condition="AI_INSTALL AND AiLicenseAgreement" Ordering="103" Options="2"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="LicenseAgreementDlgDialogInitializer" Event="[Text_Next]" Argument="[Text_Install]" Condition="AI_INSTALL AND AiLicenseAgreement" Ordering="104" Options="2"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="Back" Event="[ButtonText_Next]" Argument="[AI_ButtonText_Next_Orig]" Condition="AI_INSTALL AND AiLicenseAgreement" Ordering="2" Options="2"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="Back" Event="[Text_Next]" Argument="[AI_Text_Next_Orig]" Condition="AI_INSTALL AND AiLicenseAgreement" Ordering="3" Options="2"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Modify" Event="SpawnDialog" Argument="OutOfRbDiskDlg" Condition="AI_MAINT AND OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND (PROMPTROLLBACKCOST=&quot;P&quot; OR NOT PROMPTROLLBACKCOST)" Ordering="102" Options="2"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Modify" Event="EnableRollback" Argument="False" Condition="AI_MAINT AND OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND PROMPTROLLBACKCOST=&quot;D&quot;" Ordering="103" Options="2"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Modify" Event="SpawnDialog" Argument="OutOfDiskDlg" Condition="AI_MAINT AND ( (OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 1) OR (OutOfDiskSpace = 1 AND PROMPTROLLBACKCOST=&quot;F&quot;) )" Ordering="104" Options="2"/>
+    <ROW Dialog_="CustomizeDlg" Control_="CustomizeDlgDialogInitializer" Event="[AI_ButtonText_Next_Orig]" Argument="[ButtonText_Next]" Condition="AI_MAINT" Ordering="0" Options="2"/>
+    <ROW Dialog_="CustomizeDlg" Control_="CustomizeDlgDialogInitializer" Event="[ButtonText_Next]" Argument="[[AI_CommitButton]]" Condition="AI_MAINT" Ordering="1" Options="2"/>
+    <ROW Dialog_="CustomizeDlg" Control_="CustomizeDlgDialogInitializer" Event="[AI_Text_Next_Orig]" Argument="[Text_Next]" Condition="AI_MAINT" Ordering="2" Options="2"/>
+    <ROW Dialog_="CustomizeDlg" Control_="CustomizeDlgDialogInitializer" Event="[Text_Next]" Argument="[Text_Install]" Condition="AI_MAINT" Ordering="3" Options="2"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="[ButtonText_Next]" Argument="[AI_ButtonText_Next_Orig]" Condition="AI_MAINT" Ordering="2" Options="2"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="[Text_Next]" Argument="[AI_Text_Next_Orig]" Condition="AI_MAINT" Ordering="3" Options="2"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="SpawnDialog" Argument="OutOfRbDiskDlg" Condition="AI_PATCH AND OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND (PROMPTROLLBACKCOST=&quot;P&quot; OR NOT PROMPTROLLBACKCOST)" Ordering="202" Options="2"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="EnableRollback" Argument="False" Condition="AI_PATCH AND OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND PROMPTROLLBACKCOST=&quot;D&quot;" Ordering="203" Options="2"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="SpawnDialog" Argument="OutOfDiskDlg" Condition="AI_PATCH AND ( (OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 1) OR (OutOfDiskSpace = 1 AND PROMPTROLLBACKCOST=&quot;F&quot;) )" Ordering="204" Options="2"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="PatchWelcomeDlgDialogInitializer" Event="[AI_ButtonText_Next_Orig]" Argument="[ButtonText_Next]" Condition="AI_PATCH" Ordering="0" Options="2"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="PatchWelcomeDlgDialogInitializer" Event="[ButtonText_Next]" Argument="[[AI_CommitButton]]" Condition="AI_PATCH" Ordering="1" Options="2"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="PatchWelcomeDlgDialogInitializer" Event="[AI_Text_Next_Orig]" Argument="[Text_Next]" Condition="AI_PATCH" Ordering="2" Options="2"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="PatchWelcomeDlgDialogInitializer" Event="[Text_Next]" Argument="[Text_Install]" Condition="AI_PATCH" Ordering="3" Options="2"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Back" Event="[ButtonText_Next]" Argument="[AI_ButtonText_Next_Orig]" Condition="AI_PATCH" Ordering="0" Options="2"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Back" Event="[Text_Next]" Argument="[AI_Text_Next_Orig]" Condition="AI_PATCH" Ordering="1" Options="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCreateFolderComponent">
+    <ROW Directory_="APPDIR" Component_="APPDIR" ManualDelete="true"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_AppSearchEx" Type="1" Source="Prereq.dll" Target="DoAppSearchEx"/>
+    <ROW Action="AI_BACKUP_AI_SETUPEXEPATH" Type="51" Source="AI_SETUPEXEPATH_ORIGINAL" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_ChooseTextStyles" Type="1" Source="aicustact.dll" Target="ChooseTextStyles"/>
+    <ROW Action="AI_DATA_SETTER" Type="51" Source="AI_ExtractFiles" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_DOWNGRADE" Type="19" Target="4010"/>
+    <ROW Action="AI_DeleteCadLzma" Type="51" Source="AI_DeleteLzma" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_DeleteLzma" Type="1025" Source="lzmaextractor.dll" Target="DeleteLZMAFiles"/>
+    <ROW Action="AI_DeleteRCadLzma" Type="51" Source="AI_DeleteRLzma" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_DeleteRLzma" Type="1281" Source="lzmaextractor.dll" Target="DeleteLZMAFiles"/>
+    <ROW Action="AI_DetectSoftware" Type="257" Source="SoftwareDetector.dll" Target="OnDetectSoftware"/>
+    <ROW Action="AI_DoRemoveExternalUIStub" Type="3585" Source="ExternalUICleaner.dll" Target="DoRemoveExternalUIStub" WithoutSeq="true"/>
+    <ROW Action="AI_DpiContentScale" Type="1" Source="aicustact.dll" Target="DpiContentScale"/>
+    <ROW Action="AI_EnableDebugLog" Type="321" Source="aicustact.dll" Target="EnableDebugLog"/>
+    <ROW Action="AI_EstimateExtractFiles" Type="1" Source="Prereq.dll" Target="EstimateExtractFiles"/>
+    <ROW Action="AI_ExtractCadLzma" Type="51" Source="AI_ExtractLzma" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_ExtractFiles" Type="1025" Source="Prereq.dll" Target="ExtractSourceFiles" AdditionalSeq="AI_DATA_SETTER"/>
+    <ROW Action="AI_ExtractLzma" Type="1025" Source="lzmaextractor.dll" Target="ExtractLZMAFiles"/>
+    <ROW Action="AI_FindExeLzma" Type="1" Source="lzmaextractor.dll" Target="FindEXE"/>
+    <ROW Action="AI_GetArpIconPath" Type="1" Source="aicustact.dll" Target="GetArpIconPath"/>
+    <ROW Action="AI_InstallModeCheck" Type="1" Source="aicustact.dll" Target="UpdateInstallMode" WithoutSeq="true"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Type="65" Source="aicustact.dll" Target="PrepareUpgrade"/>
+    <ROW Action="AI_RESTORE_AI_SETUPEXEPATH" Type="51" Source="AI_SETUPEXEPATH" Target="[AI_SETUPEXEPATH_ORIGINAL]"/>
+    <ROW Action="AI_RESTORE_LOCATION" Type="65" Source="aicustact.dll" Target="RestoreLocation"/>
+    <ROW Action="AI_RemoveExternalUIStub" Type="1" Source="ExternalUICleaner.dll" Target="RemoveExternalUIStub"/>
+    <ROW Action="AI_ResolveKnownFolders" Type="1" Source="aicustact.dll" Target="AI_ResolveKnownFolders"/>
+    <ROW Action="AI_RunFinishActions" Type="1" Source="aicustact.dll" Target="RunFinishActions" WithoutSeq="true"/>
+    <ROW Action="AI_SHOW_LOG" Type="65" Source="aicustact.dll" Target="LaunchLogFile" WithoutSeq="true"/>
+    <ROW Action="AI_STORE_LOCATION" Type="51" Source="ARPINSTALLLOCATION" Target="[APPDIR]"/>
+    <ROW Action="SET_APPDIR" Type="307" Source="APPDIR" Target="[ProgramFilesFolder][Manufacturer]\[ProductName]"/>
+    <ROW Action="SET_SHORTCUTDIR" Type="307" Source="SHORTCUTDIR" Target="[ProgramMenuFolder][ProductName]"/>
+    <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatCompsComponent">
+    <ROW Feature_="MainFeature" Component_="APPDIR"/>
+    <ROW Feature_="MainFeature" Component_="ProductInformation"/>
+    <ROW Feature_="MainFeature" Component_="AI_ExePath"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.SqlServer.AzureStorageEnum.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.SqlServer.AzureStorageEnum.xml"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.SqlServer.BatchParserClient.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.SqlServer.ConnectionInfo.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.SqlServer.ConnectionInfoExtended.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.SqlServer.Diagnostics.Strace.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.SqlServer.Dmf.Common.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.SqlServer.Dmf.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.SqlServer.Management.Collector.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.SqlServer.Management.CollectorEnum.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.SqlServer.Management.Common.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.SqlServer.Management.RegisteredServers.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.SqlServer.Management.Sdk.Sfc.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.SqlServer.Management.SmoMetadataProvider.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.SqlServer.Management.Utility.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.SqlServer.Management.UtilityEnum.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.SqlServer.Management.XEvent.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.SqlServer.Management.XEventDbScoped.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.SqlServer.Management.XEventDbScopedEnum.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.SqlServer.Management.XEventEnum.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.SqlServer.PolicyEnum.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.SqlServer.RegSvrEnum.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.SqlServer.ServiceBrokerEnum.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.SqlServer.Smo.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.SqlServer.SmoExtended.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.SqlServer.SqlClrProvider.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.SqlServer.SqlEnum.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.SqlServer.SqlTDiagm.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.SqlServer.SqlWmiManagement.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.SqlServer.SString.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.SqlServer.Types.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.SqlServer.WmiEnum.dll"/>
+    <ROW Feature_="MainFeature" Component_="QL_VatLieuXayDung.exe"/>
+    <ROW Feature_="MainFeature" Component_="QL_VatLieuXayDung.vshost.exe"/>
+    <ROW Feature_="MainFeature" Component_="AI_CustomARPName"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiIconsComponent">
+    <ROW Name="icons8_administrative_tools.exe" SourcePath="..\..\..\Pictures\icon\icons8_administrative_tools.ico" Index="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_STORE_LOCATION" Condition="(Not Installed) OR REINSTALL" Sequence="1502"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Condition="AI_UPGRADE=&quot;No&quot; AND (Not Installed)" Sequence="1399"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+    <ROW Action="AI_BACKUP_AI_SETUPEXEPATH" Sequence="99" Builds="DefaultBuild"/>
+    <ROW Action="AI_RESTORE_AI_SETUPEXEPATH" Condition="AI_SETUPEXEPATH_ORIGINAL" Sequence="103" Builds="DefaultBuild"/>
+    <ROW Action="AI_DeleteCadLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="199" Builds="DefaultBuild"/>
+    <ROW Action="AI_DeleteRCadLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="198" Builds="DefaultBuild"/>
+    <ROW Action="AI_ExtractCadLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="197" Builds="DefaultBuild"/>
+    <ROW Action="AI_FindExeLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="196" Builds="DefaultBuild"/>
+    <ROW Action="AI_ExtractLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="1549" Builds="DefaultBuild"/>
+    <ROW Action="AI_DeleteRLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="1548" Builds="DefaultBuild"/>
+    <ROW Action="AI_DeleteLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="6599" Builds="DefaultBuild"/>
+    <ROW Action="AI_ExtractFiles" Sequence="3998" Builds="DefaultBuild"/>
+    <ROW Action="AI_DATA_SETTER" Sequence="3997"/>
+    <ROW Action="AI_EstimateExtractFiles" Sequence="3999" Builds="DefaultBuild"/>
+    <ROW Action="AI_DetectSoftware" Sequence="102"/>
+    <ROW Action="AI_AppSearchEx" Sequence="101"/>
+    <ROW Action="AI_GetArpIconPath" Sequence="1401"/>
+    <ROW Action="AI_RemoveExternalUIStub" Condition="(REMOVE=&quot;ALL&quot;) AND ((VersionNT &gt; 500) OR((VersionNT = 500) AND (ServicePackLevel &gt;= 4)))" Sequence="1501"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="InstallDlg" Condition="AI_INSTALL" Sequence="1230" SeqType="3" MsiKey="WelcomeDlg"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="53"/>
+    <ROW Action="AI_DpiContentScale" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+    <ROW Action="AI_BACKUP_AI_SETUPEXEPATH" Sequence="99"/>
+    <ROW Action="AI_RESTORE_AI_SETUPEXEPATH" Condition="AI_SETUPEXEPATH_ORIGINAL" Sequence="103"/>
+    <ROW Action="AI_DetectSoftware" Sequence="102"/>
+    <ROW Action="AI_AppSearchEx" Sequence="101"/>
+    <ROW Action="MaintenanceTypeDlg" Condition="AI_MAINT" Sequence="1250" SeqType="3" MsiKey="MaintenanceTypeDlg"/>
+    <ROW Action="AI_ChooseTextStyles" Sequence="74"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiLaunchConditionsComponent">
+    <ROW Condition="(VersionNT &lt;&gt; 400)" Description="[ProductName] cannot be installed on [WindowsTypeNT40Display]." DescriptionLocId="AI.LaunchCondition.NoNT40" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 500)" Description="[ProductName] cannot be installed on [WindowsTypeNT50Display]." DescriptionLocId="AI.LaunchCondition.NoNT50" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT64 OR ((VersionNT &lt;&gt; 501) OR (ServicePackLevel = 3))) AND ((VersionNT &lt;&gt; 502) OR (ServicePackLevel = 2))" Description="[ProductName] cannot be installed on [WindowsTypeNT5XDisplay]." DescriptionLocId="AI.LaunchCondition.NoNT5X" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="AI_DETECTED_DOTNET_VERSION &gt;= AI_REQUIRED_DOTNET_VERSION" Description="[ProductName] cannot be installed on systems with .NET Framework version lower than [AI_REQUIRED_DOTNET_DISPLAY]." DescriptionLocId="AI.LaunchCondition.DotNET" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="SETUPEXEDIR OR (REMOVE=&quot;ALL&quot;)" Description="This package can only be run from a bootstrapper." DescriptionLocId="AI.LaunchCondition.RequireBootstrapper" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="VersionNT" Description="[ProductName] cannot be installed on [WindowsType9XDisplay]." DescriptionLocId="AI.LaunchCondition.No9X" IsPredefined="true" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegLocatorComponent">
+    <ROW Signature_="AI_EXE_PATH_CU" Root="1" Key="Software\Caphyon\Advanced Installer\LZMA\[ProductCode]\[ProductVersion]" Name="AI_ExePath" Type="2"/>
+    <ROW Signature_="AI_EXE_PATH_LM" Root="2" Key="Software\Caphyon\Advanced Installer\LZMA\[ProductCode]\[ProductVersion]" Name="AI_ExePath" Type="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegsComponent">
+    <ROW Registry="AI_ExePath" Root="-1" Key="Software\Caphyon\Advanced Installer\LZMA\[ProductCode]\[ProductVersion]" Name="AI_ExePath" Value="[AI_SETUPEXEPATH]" Component_="AI_ExePath"/>
+    <ROW Registry="Comments" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="Comments" Value="[ARPCOMMENTS]" Component_="AI_CustomARPName"/>
+    <ROW Registry="Contact" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="Contact" Value="[ARPCONTACT]" Component_="AI_CustomARPName"/>
+    <ROW Registry="DisplayIcon" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="DisplayIcon" Value="[ARP_ICON_PATH]" Component_="AI_CustomARPName"/>
+    <ROW Registry="DisplayName" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="DisplayName" Value="[AI_PRODUCTNAME_ARP]" Component_="AI_CustomARPName"/>
+    <ROW Registry="DisplayVersion" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="DisplayVersion" Value="[ProductVersion]" Component_="AI_CustomARPName"/>
+    <ROW Registry="EstimatedSize" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="EstimatedSize" Value="#[AI_ARP_SIZE]" Component_="AI_CustomARPName"/>
+    <ROW Registry="HelpLink" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="HelpLink" Value="[ARPHELPLINK]" Component_="AI_CustomARPName"/>
+    <ROW Registry="HelpTelephone" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="HelpTelephone" Value="[ARPHELPTELEPHONE]" Component_="AI_CustomARPName"/>
+    <ROW Registry="InstallLocation" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="InstallLocation" Value="[APPDIR]" Component_="AI_CustomARPName"/>
+    <ROW Registry="ModifyPath" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="ModifyPath" Value="[AI_UNINSTALLER] /i [ProductCode] AI_UNINSTALLER_CTP=1" Component_="AI_CustomARPName"/>
+    <ROW Registry="NoRepair" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="NoRepair" Value="#1" Component_="AI_CustomARPName"/>
+    <ROW Registry="Path" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Path" Value="[APPDIR]" Component_="ProductInformation"/>
+    <ROW Registry="Publisher" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="Publisher" Value="[Manufacturer]" Component_="AI_CustomARPName"/>
+    <ROW Registry="Readme" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="Readme" Value="[ARPREADME]" Component_="AI_CustomARPName"/>
+    <ROW Registry="URLInfoAbout" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="URLInfoAbout" Value="[ARPURLINFOABOUT]" Component_="AI_CustomARPName"/>
+    <ROW Registry="URLUpdateInfo" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="URLUpdateInfo" Value="[ARPURLUPDATEINFO]" Component_="AI_CustomARPName"/>
+    <ROW Registry="UninstallPath" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="UninstallPath" Value="[AI_UNINSTALLER] /x [ProductCode] AI_UNINSTALLER_CTP=1" Component_="AI_CustomARPName"/>
+    <ROW Registry="UninstallString" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="UninstallString" Value="[AI_UNINSTALLER] /x [ProductCode] AI_UNINSTALLER_CTP=1" Component_="AI_CustomARPName"/>
+    <ROW Registry="Version" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Version" Value="[ProductVersion]" Component_="ProductInformation"/>
+    <ROW Registry="VersionMajor" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="VersionMajor" Value="#1" Component_="AI_CustomARPName"/>
+    <ROW Registry="VersionMinor" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="VersionMinor" Value="#0" Component_="AI_CustomARPName"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiShortsComponent">
+    <ROW Shortcut="QL_VatLieuXayDung.exe" Directory_="DesktopFolder" Name="QUANLY~1|Quan Ly Vat Lieu Xay Dung" Component_="QL_VatLieuXayDung.exe" Target="[#QL_VatLieuXayDung.exe]" Description="QL_VatLieuXayDung.exe" Hotkey="0" Icon_="icons8_administrative_tools.exe" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
+    <ATTRIBUTE name="UsedTheme" value="surface"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="0.0.1" VersionMax="[|ProductVersion]" Attributes="257" ActionProperty="OLDPRODUCTS"/>
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="[|ProductVersion]" Attributes="2" ActionProperty="AI_NEWERPRODUCTFOUND"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="C673FE9433B49AFAC9592AB26B8F8E4" DisplayName=".NET Framework 4.0" SetupFileUrl="http://download.microsoft.com/download/9/5/A/95A9616B-7A37-4AF6-BC36-D6EA96C8DAAE/dotNetFx40_Full_x86_x64.exe" Location="1" ExactSize="50449456" WinNTVersions="Windows 8 x86, Windows 8.1 x86, Windows 10 x86" WinNT64Versions="Windows 8 x64, Windows Server 2012 x64, Windows 8.1 x64, Windows Server 2012 R2 x64, Windows 10 x64, Windows Server x64" Operator="1" NoUiComLine="/q /norestart" Options="xy" MD5="251743dfd3fda414570524bac9e55381" TargetName=".NET Framework 4.0"/>
+    <ATTRIBUTE name="PrereqsOrder" value="C673FE9433B49AFAC9592AB26B8F8E4"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="C673FE9433B49AFAC9592AB26B8F8E4Install" Prereq="C673FE9433B49AFAC9592AB26B8F8E4" SearchType="9" SearchString="HKLM\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full\Install" RefContent="M1" Order="1" Property="PreReqSearch_C673FE9433B49AFAC9592A"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.SynchronizedFolderComponent">
+    <ROW Directory_="APPDIR" SourcePath="..\QL_VatLieuXayDung\QL_VatLieuXayDung\bin\Debug" ExcludePattern="*~|#*#|%*%|._|CVS|.cvsignore|SCCS|vssver.scc|mssccprj.scc|vssver2.scc|.svn|.DS_Store" ExcludeFlags="6"/>
+  </COMPONENT>
+</DOCUMENT>

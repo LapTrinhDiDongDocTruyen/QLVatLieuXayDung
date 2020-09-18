@@ -1,0 +1,8 @@
+Chạy DATABSE
+Tài khoản đăng nhập ứng dụng:
+Quyền Admin:
+	TK: Admin	MK: 123
+	TK: TonyLuc	MK: 123
+	TK:HuuNhan123	MK: 123
+Quyền Member:
+	TK: tansy	MK: 123
